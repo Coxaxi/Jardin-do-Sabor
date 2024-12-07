@@ -1,0 +1,88 @@
+:root {
+  --verde-claro: #DBFFB4; 
+  --preto: #000000; 
+  --verde: #228B22;
+  --amarelo: #FFD700;
+}
+
+body {
+    background-color: #DBFFB4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #000; 
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+
+
+  .topo-menu {
+    border-bottom:4px solid var(--marrom);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--verde-claro);
+    padding: 10px 20px;
+  }
+  
+  .topo-menu .logo img {
+    width: 150px;
+  }
+  
+  nav menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav menu li a {
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  nav menu li a:hover {
+    color: var(--verde);
+    border-bottom: 3px solid var(--amarelo);
+  }
+  
+  
+  #atual {
+    border-bottom: 4px solid var(--amarelo);
+  }
+
+  .bebidas-lista img{
+    height: 90px;
+    width: auto;
+  }
+  .items{border: 2px solid var(--amarelo); padding: 5px;}
+  
